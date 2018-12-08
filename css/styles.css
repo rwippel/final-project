@@ -1,0 +1,183 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  
+  }
+
+@font-face {
+    font-family: 'Bodoni';
+    src: url("../BodoniSvtyTwoITCTT-Book.ttf");
+}
+
+nav {
+    display: flex;
+    margin: 50px;
+  }
+
+.button {
+    padding: 5px 20px 0;
+    color: rgb(100, 100, 100);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.button2 {
+    padding: 0px 20px 20px;
+    border-bottom: rgb(100, 100, 100) solid 1px;
+    color: rgb(100, 100, 100);
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+section {
+    display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+    height: 100vh;
+    margin: 130px 0;
+}
+
+h1 {
+    font-family: 'Bodoni';
+    font-size: 175px;
+    color:rgb(210, 68, 78);
+}
+
+#spiderweb {
+    width: 750px;
+    max-height: 775px;
+    object-fit: cover;
+    margin: 0px;
+    width: 100%;
+	grid-column-start: 1 ; 
+	grid-column-end: 7;
+	grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#program {
+    padding: 30px;
+	grid-column-start: 6; 
+	grid-column-end: 12;
+	grid-row-start: 1;
+    grid-row-end: 5;
+    border-left: solid 2px rgb(100, 100, 100);
+    margin: 10px;
+}
+
+p {
+    font-size: 25px;
+    margin: 40px;
+    color: rgb(100, 100, 100);
+}
+
+h2 {
+    color: rgb(210, 68, 78);
+    font-size: 70px;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 400px;
+
+}
+
+.whatis {
+    align-content: center;
+    margin: 50px 150px;
+}
+
+.column {
+    column-count: 2;
+}
+
+#leaves {
+    width: 750px;
+    max-height: 775px;
+    object-fit: cover;
+    width: 100%;
+	grid-column-start: 5; 
+	grid-column-end: 13;
+	grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.see {
+    display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	height: 100vh;
+}
+
+#see {
+    padding: 0px;
+	grid-column-start: 3; 
+	grid-column-end: 10;
+	grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+#required {
+    column-count: 2;
+    align-content: center;
+    padding: 30px;
+    margin: 50px 150px;
+}
+
+#deer {
+    width: 750px;
+    object-fit: cover;
+    margin: 0px;
+    width: 100%;
+	grid-column-start: 1; 
+	grid-column-end: 9;
+	grid-row-start: 2;
+        grid-row-end: 6;\
+
+
+}
+
+.box {
+    background: rgb(176, 196, 222, 0.3);
+	grid-column-start: 7; 
+	grid-column-end: 13;
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+
+#supporting {
+    grid-column-start: 7; 
+	grid-column-end: 13;
+	grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.label {
+
+}
+
+#book {
+    width: 750px;
+    max-height: 700px;
+    object-fit: cover;
+    width: 100%;
+	grid-column-start: 5; 
+	grid-column-end: 13;
+	grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#bfa {
+    grid-column-start: 2;
+    grid-column-end: 6;
+	grid-row-start: 2;
+    grid-row-end: 6;
+}
+
+#programs {
+    grid-column-start: 2;
+    grid-column-end: 7;
+	grid-row-start: 1;
+    grid-row-end: 2;
+}
